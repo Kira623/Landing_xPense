@@ -1,0 +1,50 @@
+@import url(./base.css);
+@import url(./header.css);
+@import url(./buttons.css);
+@import url(./overview.css);
+@import url(./footer.css);
+@import url(./first_sec.css);
+@import url(./second_sec.css);
+@import url(./third_sec.css);
+@import url(./fourth_sec.css);
+@import url(./flex_and_grid.css);
+@import url(./forms.css);
+
+/* hero */
+
+.content_picture {
+	max-width: 100%;
+	width: 538px;
+	height: 478px;
+}
+
+.content_picture__img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	object-position: center;
+	object-fit: contain;
+}
+
+.content_info {
+	display: block;
+	max-width: 100%;
+}
+
+.content_info__footer {
+	display: flex;
+	align-items: center;
+
+	column-gap: 18px;
+}
+.content_info__footer span {
+	font-size: 24px;
+	line-height: 1.58;
+	text-align: left;
+	color: #bdbdbd;
+}
+
+
+
+
+

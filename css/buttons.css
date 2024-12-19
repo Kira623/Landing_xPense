@@ -1,0 +1,80 @@
+/* buttons */
+
+.btn_base {
+	display: inline-flex;
+	justify-content: center;
+	text-align: center;
+	min-width: 160px;
+
+	text-decoration: none;
+
+	white-space: nowrap;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn_base.btn_base--white {
+	height: 48px;
+	line-height: 48px;
+	padding: 0 14px;
+
+	background-color: #fff;
+	color: #ff7235;
+	border: 1px solid #ff7235;
+	font-size: 18px;
+	border-radius: 8px;
+}
+
+.btn_base.btn_base--white:hover,
+.btn_base.btn_base--white:active,
+.btn_base.btn_base--white:focus {
+	background-color: #ff7235;
+	color: #fff;
+}
+
+.btn_base.btn_base--primary {
+	height: 48px;
+	line-height: 48px;
+	padding: 0 14px;
+
+	background-color: #ff7235;
+	color: #fff;
+	border: 1px solid #ff7235;
+	font-size: 18px;
+	border-radius: 8px;
+}
+
+.btn_base.btn_base--primary:hover,
+.btn_base.btn_base--primary:active,
+.btn_base.btn_base--primary:focus {
+	background-color: #fff;
+	color: #ff7235;
+}
+
+.btn_base.btn_base--hero {
+	height: 76px;
+	line-height: 76px;
+	min-width: 192px;
+	font-size: 24px;
+}
+
+.btn_base .btn_base--arrow{
+    height: 24px;
+    column-gap: 12px;
+
+	font-size: 24px;
+    line-height: 24px;
+	white-space: nowrap;
+	
+    color: #ff7235;
+	transition: color 0.3s ease-in-out;
+}
+
+.btn_base .btn_base--arrow:hover,
+.btn_base.btn_base--white:active,
+.btn_base.btn_base--white:focus{
+    text-decoration: underline;
+    color: #ff7235;
+}
+
+/* buttons */

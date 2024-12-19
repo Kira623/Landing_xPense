@@ -1,0 +1,75 @@
+.section.section--second{
+    display: flex;
+    height: 100vh;
+    padding-top: var(--section-padding-top);
+    padding-left: var(--section-padding-left);
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.container_second {
+	max-width: 1110px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.content_second {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.content_col_second {
+    width: calc(50% - 15px);
+}
+
+.content_info_second {
+    display: block;
+    max-width: 100%;
+    height: 537px;
+}
+
+.section_title_descr_second{
+    max-width: 172px;
+    font-family: "Hind Siliguri";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.57px;
+    text-align: left;
+    color: var(--color-text-descr);
+}
+
+.section_title_second{
+    max-width: 540px;
+    font-family: Hind Siliguri;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    color: var(--color-text-main);
+}
+
+.section_descr_second{
+    max-width: 540px;
+    font-family: Hind Siliguri;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+    text-align: left;
+    color: var(--color-text-descr);
+}
+
+.content_picture_second{
+    max-width: 100%;
+	width: 539px;
+	height: 434px;
+}
+
+.content_picture_img_second {
+	display: block;
+	height: 100%;
+	width: 100%;
+	object-position: center;
+	object-fit: contain;
+}

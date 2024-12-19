@@ -1,0 +1,15 @@
+.overview {
+	display: block;
+	width: 1110px;
+	height: 625px;
+	border-radius: 32px 32px 0 0;
+	overflow: hidden;
+}
+
+.overview__img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	object-position: center;
+	object-fit: cover;
+}

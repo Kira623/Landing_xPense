@@ -1,0 +1,148 @@
+footer {
+    padding-top: 200px;
+    font-family: "Hind Siliguri", sans-serif;
+    margin-bottom: 100px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 200px;
+    margin: 0 auto;
+  }
+  
+  .footer-list h1 {
+    color: #292830;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.81px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .footer-list ul {
+    list-style: none;
+  }
+  
+  .footer-list li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-list {
+    text-decoration: none;
+    color: #292830;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+  }
+  
+  .newsletter {
+    max-width: 350px;
+    width: 100%;
+    flex: 1;
+  }
+  
+  .newsletter h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.81px;
+    text-align: left;
+  }
+  
+  .newsletter p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.34px;
+    text-align: left;
+    color: #BDBDBD;
+  }
+  
+  .subscribe {
+    display: flex;
+    max-width: 350px;
+    width: 100%;
+    border:1px solid #292830;
+    color: #292830;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding-left: 10px;
+  }
+  
+  .input-place {
+    display: flex;
+    color: #292830;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    border: none;
+    text-align:justify;
+  }
+  
+  .footer-button {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    background-color: #FF7235;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.87px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #FF7235;
+  }
+  
+  .footer-button:hover {
+    background-color: white;
+    color: #FF7235;
+  }
+
+  .footer-descr {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: left;
+    color: #BDBDBD;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    border-top: 1px solid #BDBDBD33;
+    padding-top: 30px;
+  }
+
+  .footer-bottom p{
+    color: #292830;
+  }
+
+  .links-bottom {
+    display: flex;
+    padding-left: 100px;
+    color: #292830;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    gap: 20px;
+  }
+  
+  .social-media {
+    display: flex;
+    max-width: 80px;
+    width: 100%;
+    padding-right: 200px;
+    gap: 10px;
+  }
